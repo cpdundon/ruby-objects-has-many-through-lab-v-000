@@ -11,7 +11,7 @@ class Doctor
     return nil if @appointments.include?(app)
     
     @appointments << app
-    ap)p.doctor = self
+    app.doctor = self
   end
   
   def patients
