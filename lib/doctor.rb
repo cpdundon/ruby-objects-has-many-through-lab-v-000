@@ -13,7 +13,7 @@ class Doctor
   end
   
   def patients
-    p = @appointments.collect { |e| e.patient}
+    p = @appointments.collect { |e| e.patient }
     p
   end
 end
