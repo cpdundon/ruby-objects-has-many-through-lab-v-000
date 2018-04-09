@@ -8,8 +8,10 @@ class Doctor
   end
   
   def add_appointment(app)
+    return nil if @appointments.include?(app)
+    
     @appointments << app
-    app.doctor = self
+    ap)p.doctor = self
   end
   
   def patients
