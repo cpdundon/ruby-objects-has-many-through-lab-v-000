@@ -11,4 +11,9 @@ class Patient
     @appointments << app
     app.patient = self
   end
+  
+  def doctors
+    d = @appointments.collect { |e| e.doctor }
+    d
+  end
 end
